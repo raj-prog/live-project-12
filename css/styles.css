@@ -90,7 +90,7 @@ nav .btn {
   font-size: medium;
   margin: 12px 0;
   padding: 20px 30px;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 
 .container form input::placeholder {
@@ -113,7 +113,7 @@ nav .btn {
 
 .container form i {
   position: absolute;
-  top: 33px;
+  top: 35px;
   left: 15px;
 }
 
@@ -248,4 +248,52 @@ nav .btn {
 .section-3 .center {
   text-align: center;
   margin: 45px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #10181d;
+}
+
+footer .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 140px;
+  padding: 55px 0;
+  border-bottom: 2px solid #282f34;
+}
+
+footer .top .media-icons a i {
+  margin-left: 15px;
+  background-color: #282f34;
+  padding: 15px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+footer .link-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 140px;
+  padding-bottom: 120px;
+}
+
+footer .link-boxes .box li {
+  list-style-type: none;
+  color: #fff;
+}
+
+footer .link-boxes .box .link_name {
+  padding: 14px 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+footer .link-boxes .box li a {
+  text-decoration: none;
+  color: #b1b4b6;
+  font-size: 13px;
+  line-height: 2.5;
 }
