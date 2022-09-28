@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&family=Roboto:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&family=Roboto:wght@100;300;400;700;900&display=swap');
 
 * {
   margin: 0;
@@ -180,7 +180,8 @@ nav .btn {
   margin: 30px 0;
 }
 
-.section-2 .btn {
+.section-2 .btn,
+.section-3 .center button {
   border: none;
   background-color: #8bb7a2;
   color: #ffffff;
@@ -193,4 +194,58 @@ nav .btn {
 
 .section-2 .wrapper .image-3 img {
   width: 450px;
+}
+
+.section-3 {
+  margin: 100px 140px;
+}
+
+.section-3 .team-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 0;
+}
+
+.section-3 .team-description h1 {
+  font-size: 40px;
+}
+
+.section-3 .team-description p {
+  font-family: 'Roboto', sans-serif;
+  color: #535558;
+  line-height: 1.9;
+}
+
+.section-3 .teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-3 .member-1,
+.section-3 .member-2,
+.section-3 .member-3 {
+  width: 350px;
+  height: 450px;
+}
+
+.section-3 .teams .team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.section-3 .teams .team-member p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.section-3 .center {
+  text-align: center;
+  margin: 45px 0;
 }
