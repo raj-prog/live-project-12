@@ -1,0 +1,61 @@
+@media screen and (max-width: 64rem) {
+  .list-item {
+    display: none;
+  }
+
+  .image img {
+    width: 80%;
+  }
+
+  .container .heading h1 {
+    font-size: 3rem;
+  }
+
+  .container .heading p {
+    font-size: 1.2rem;
+  }
+
+  .container form input {
+    width: 100%;
+  }
+
+  .section-2 .wrapper {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .section-2 .wrapper .content p {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .section-3 .teams {
+    justify-content: center;
+  }
+
+  .section-3 .team-description {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section-3 .team-description p {
+    text-align: center;
+  }
+
+  footer {
+    height: 30vh;
+  }
+
+  footer .link-boxes {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .section-3 .teams {
+    justify-content: center;
+  }
+}
