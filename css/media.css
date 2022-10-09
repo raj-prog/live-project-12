@@ -1,3 +1,4 @@
+/* Laptop */
 @media screen and (max-width: 64rem) {
   .list-item {
     display: none;
@@ -51,11 +52,5 @@
 
   footer .link-boxes {
     display: none;
-  }
-}
-
-@media screen and (max-width: 48rem) {
-  .section-3 .teams {
-    justify-content: center;
   }
 }
